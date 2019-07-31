@@ -1,0 +1,14 @@
+paths:
+  '/files/create':
+    post:
+      parameters:
+      - name: creationDate
+        in: path
+        description: 'Creation date of the file to store'
+        required: false
+        type: Date
+      - name: description
+        in: path
+        description: 'description regarding param2'
+        required: false
+        type: string

@@ -1,0 +1,33 @@
+
+$picker-font-size: 16px;
+.picker {
+    z-index: 9999 !important;
+}
+.form-control-container{
+    width: 100%;
+    .react-datepicker-wrapper{
+        width: 100%;
+    }
+    .react-datepicker__input-container {
+        width: 100%;
+    }
+
+    .react-datepicker__month{
+        height: 320px;
+    }
+    .react-datepicker__week > * {
+        font-size: $picker-font-size;
+    }
+    .react-datepicker__day-names > * {
+        font-size: $picker-font-size;
+        font-weight: bold;
+    }
+    .react-datepicker__year-read-view--selected-year, .react-datepicker__month-read-view--selected-month{
+        font-size: $picker-font-size;
+        margin-right: 4px;
+    }
+    .react-datepicker__month-option, .react-datepicker__year-option{
+        font-size: $picker-font-size;
+        margin-bottom: 4px;
+    }
+}
