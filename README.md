@@ -22,7 +22,7 @@ To run the server:
 2.	Set *JAVA_HOME* env variable to a JDK 11 home directory.
 3.	Run *mvn –DskipTests install*. This command will skip tests. As output, it will generate a jar file named dotsub-demo-0.0.1.jar in the ‘target’ subfolder.
 4.	Point to the target folder
-5.	Run *java –jar dotsub-demo-0.0.1..jar*. This will launch the server application in the url http://localhost:8080.
+5.	Run *java –jar dotsub-demo-0.0.1..jar*. This will launch the server application in the url http://localhost:8080. At this url, the app will open the form page.
 6.	If you want to open swagger UI, go to http://localhost:8080/swagger-ui.html
 
 To run the tests:
@@ -62,7 +62,10 @@ To run the tests:
 2.	Run *npm run test*. 
 3.	Test results will be displayed in the console output
 
-The tests are located in source files with name matching pattern **.test.tsx.
+### Considerations
+
+* The tests are located in source files with name matching pattern **.test.tsx.
+* The frontend app will retrieve data from the environment url configuration parameter. Edit these files according to your needs. The default base api url is http://localhost:8080.
 
 
 ## Some tasks remaining
