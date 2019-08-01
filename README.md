@@ -47,6 +47,7 @@ It was developed a SPA in React 16.8 + Typescript 3 using Node Package Manager 8
 •	Enzyme to navigate over the UI components DOM tree and to compare the model values with the rendered values in the output DOM.
 •	Ts linter to promote code quality assurance
 * Formik & Yup libraries for form state handling
+* Bootstrap as CSS framework to create responsive web pages
 
  Prerequisites to run the frontend.
 1.	NPM ^8.0 installed
