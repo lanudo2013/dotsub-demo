@@ -42,10 +42,10 @@ Files are saved in the files folder in the current program folder. The file is s
 **Description:**
 
 It was developed a SPA in React 16.8 + Typescript 3 using Node Package Manager 8 (NPM) as a dependency management tool. Webpack 4 was used as a module bundler to run the app locally using the webpack-dev-server and to build the app sources to deploy into production. Other tools were used:
-•	SASS as a CSS preprocessor
-•	Jest to unit test the UI components
-•	Enzyme to navigate over the UI components DOM tree and to compare the model values with the rendered values in the output DOM.
-•	Ts linter to promote code quality assurance
+*	SASS as a CSS preprocessor
+* Jest to unit test the UI components
+*	Enzyme to navigate over the UI components DOM tree and to compare the model values with the rendered values in the output DOM.
+*	Ts linter to promote code quality assurance
 * Formik & Yup libraries for form state handling
 * Bootstrap as CSS framework to create responsive web pages
 
@@ -73,3 +73,4 @@ To run the tests:
 1.	Unit test for individual components, such as the CalendarInput and FileInput components. 
 2.	Add some tests to test parameters border cases
 3.	Compress save files stored in the backend server to save disk space
+4. Add a coverage analysis tool to get code coverage data after running tests
