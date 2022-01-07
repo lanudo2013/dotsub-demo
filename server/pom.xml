@@ -13,7 +13,7 @@
   <properties>
   	 <start-class>dotsub.demo.Application</start-class>
   	 <spring-version>5.1.7.RELEASE</spring-version>
-	 <h2-version>1.4.199</h2-version>
+	 <h2-version>2.0.206</h2-version>
 	 <hibernate-version>5.4.2.Final</hibernate-version>
 	 <spring-data-version>2.1.8.RELEASE</spring-data-version>
 	 <swagger-version>2.9.2</swagger-version>
